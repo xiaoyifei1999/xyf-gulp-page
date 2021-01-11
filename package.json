@@ -1,0 +1,39 @@
+{
+  "name": "xyf-pages",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "xyf-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/xiaoyifei1999/xyf-pages#readme",
+  "bugs": {
+    "url": "https://github.com/xiaoyifei1999/xyf-pages/issues"
+  },
+  "license": "MIT",
+  "author": "xiaoyifei <58548377+xiaoyifei1999@users.noreply.github.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyifei1999/xyf-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
